@@ -79,6 +79,9 @@
 .button:hover {
   background: gold;
 }
+.yes {
+  background-color: #8DC66E;
+}
 /* Dividers/seperators */
 hr.black-seperator {
   border-top: 2px solid black;
@@ -100,4 +103,13 @@ footer {
   padding: 5px;
   text-align: center;
   background-color: yellow;
+}
+table, th, td {
+  border: 2px solid grey;
+  border-collapse: collapse;
+  margin: 15px;
+  padding: 5px;
+}
+tr {
+  height: 90px;
 }
