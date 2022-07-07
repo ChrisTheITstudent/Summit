@@ -82,6 +82,9 @@
 .yes {
   background-color: #8DC66E;
 }
+.tools-powerpoint {
+  align-content: center;
+}
 /* Dividers/seperators */
 hr.black-seperator {
   border-top: 2px solid black;
