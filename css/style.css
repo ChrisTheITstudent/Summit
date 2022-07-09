@@ -97,6 +97,11 @@ h2 {
   text-decoration-line: underline;
   font-family: "tahoma", sans-serif;
 }
+h4 {
+  text-align: center;
+  text-decoration-line: underline;
+  color: white;
+}
 p {
   font-family: "georgia",serif;
 }
