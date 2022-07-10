@@ -4,6 +4,36 @@
     <title>Team Summit Work In Progress</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      .button {
+        position: relative;
+        transform: translate(90%, -500%);
+      }
+      .button:hover {
+        background: lime;
+      }
+      .colom {
+      background-color: grey;
+      }
+      .coloms {
+        margin-bottom: 20%;
+      }
+      body {
+          background-image: url(images/phone.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+      }
+      h1 {
+        text-align: center;
+      }
+      p {
+      text-align: center;
+      }
+    </style>
   </head>
   <body class="homepage">
     <header class="header">
@@ -20,7 +50,22 @@
       </ul>
     </header>
     <main>
-
+      <h1>IT Technologies Research</h1>
+        <p style="color: white;"><em>click on the technology buttons to be taken to the article</em></p>
+          <div class="coloms">
+            <div class="colom">     <!-- blockchain technologies -->
+              <img src="images/blockchain.jpg" alt="bitcoin">
+              <button class="button"><a href="tech-research/blockchain.html">Blockchain</a></button>
+            </div>
+            <div class="colom">     <!-- machine learning technologies -->
+              <img src="images/machine-learning.jpg" alt="machine learning">
+              <button class="button"><a href="tech-research/machine-learning.html">Machine Learning</a></button>
+            </div>
+            <div class="colom">     <!-- cyber security technologies -->
+              <img src="images/cyber-security.jpg" alt="cyber security">
+              <button class="button"><a href="tech-research/cyber-security.html">Cyber Security</a></button>
+            </div>
+          </div>
     </main>
     <footer>
       <!-- Footer content -->
