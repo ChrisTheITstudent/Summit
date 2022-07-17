@@ -1,95 +1,71 @@
-/* Classes */
-.homepage {
-
+/* Responsive Styling */
+  /* Set Box Size */
+* {
+  box-sizing: border-box;
 }
-.header {
-  margin-top: 25px;
-  background-color: black;
+  /* Clear flow */
+.row::after {
+  content: ""
+  clear:both;
+  display: table;
 }
-.heading {
-  text-align: center;
+  /* Add Float */
+[class*="col-"] {
+  float: left;
+  padding: 15px
 }
-.navigation-menu {
-  list-style-type: none;
-  text-align: center;
-  margin: 0px;
-  padding: 5px;
-
-}
-.nav-options {
-  display: inline;
-  color: white;
-  font-size: 24px;
-  margin: 0;
-  padding: 10px;
-  border: 2px;
-  border-color: white;
-}
-.nav-options:hover {
-  background-color: grey;
-}
-.coloms {
-  display: flex;
-  justify-content: center;
-}
-.colom {
-  margin: 5px;
-  padding: 15px;
-}
-.title-image {
-  position: relative;
-  text-align: center;
-  align-content: center;
-}
-.summit {
-  position: absolute;
-  top: 35%;
+  /* Set Coloms */
+    /* Mobile Settings */
+[class*="col-"] {
   width: 100%;
-  text-align: center;
-  text-shadow: 2px 2px grey;
-  font-size: 72px;
+}
+    /* Desktop Settings */
+@media only screen and (min-width: 768px) {
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
+  /* Clear flow */
+.row::after {
+  content: ""
+  clear:both;
+  display: table;
+}
 
-}
-.identity {
-  text-align: center;
-  margin: 2px;
-  padding: 5px;
-  border: 2px solid;
-  border-radius: 25px;
-  border-color: black;
-  background-color: gold;
-}
-.team-profile {
-  width: 100px;
-  height: 250px;
-  padding: 5px;
-  margin: 50px 50px;
-  text-align: center;
-}
-.button {
- text-align: center;
- font-size: 25px;
- transition-duration: 0.5s;
- padding: 15px;
- margin: 20px;
- background: silver;
- border: 2px solid black;
- border-radius: 5px;
-}
-.button:hover {
-  background: gold;
-}
-.yes {
-  background-color: #8DC66E;
-}
-.tools-powerpoint {
-  align-content: center;
-}
-/* Dividers/seperators */
-hr.black-seperator {
-  border-top: 2px solid black;
-}
-/* General styling */
+/* General Font Styling */
 h1 {
   font-family: "arial black", arial;
 }
@@ -100,24 +76,68 @@ h2 {
 h4 {
   text-align: center;
   text-decoration-line: underline;
-  color: white;
 }
 p {
   font-family: "georgia",serif;
 }
-footer {
-  width: auto;
-  margin: 0px;
-  padding: 5px;
-  text-align: center;
-  background-color: yellow;
-}
+
+/* Table Styling */
 table, th, td {
   border: 2px solid grey;
   border-collapse: collapse;
   margin: 15px;
   padding: 5px;
 }
-tr {
-  height: 90px;
+td {
+  width: 75px;
+  height: 75px;
+}
+
+/* Images Styling */
+
+/* Buttons Styling */
+.button {
+ text-align: center;
+ font-size: 25px;
+ transition-duration: 0.5s;
+ padding: 15px;
+ margin: 5px;
+ background: silver;
+ border: 2px solid black;
+ border-radius: 5px;
+}
+.button:hover {
+  background: gold;
+}
+
+/* General Styling */
+.row {
+  text-align: center;
+}
+main {
+
+}
+  /* Seperator Styling */
+hr.black-seperator {
+  border-top: 2px solid black;
+}
+
+/* Navigation Menu Styling */
+.col-1 .nav-options {
+  color: white;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px;
+  border: 2px;
+  border-color: white;
+}
+.col-1 .nav-options:hover {
+  background-color: grey;
+}
+/* Classes */
+.header {
+  background-color: #04F4EC;
+}
+.yes {
+  background-color: #8DC66E;
 }
