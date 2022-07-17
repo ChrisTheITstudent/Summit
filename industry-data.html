@@ -1,166 +1,273 @@
-</<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+
   <head>
     <title>Team Summit Work In Progress</title>
+    <meta name="viewport" content="width=device-width, initialscale=1.0">
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <link rel="stylesheet" href="css/style.css">
-    <style>
-      table, th, td {
-        border: 2px solid yellow;
-      }
-      h1, h2, h3, h4, p {
-        color: black;
-      }
-    </style>
   </head>
-  <body class="homepage">
-    <header class="header">
-      <ul class="navigation-menu">
-        <li class="nav-options"><a class="nav-options" href="index.html">Home</a></li>
-        <li class="nav-options"><a class="nav-options" href="team-profile.html">Team Profile</a></li>
-        <li class="nav-options"><a class="nav-options" href="ideal-jobs.html">Ideal Jobs</a></li>
-        <li class="nav-options"><a class="nav-options" href="tools.html">Tools</a></li>
-        <li class="nav-options"><a class="nav-options" href="industry-data.html">Industry Data</a></li>
-        <li class="nav-options"><a class="nav-options" href="it-work.html">IT Work</a></li>
-        <li class="nav-options"><a class="nav-options" href="it-technologies.html">IT Technologies</a></li>
-        <li class="nav-options"><a class="nav-options" href="project-ideas.html">Project Ideas</a></li>
-        <li class="nav-options"><a class="nav-options" href="reflection.html">Reflection</a></li>
-      </ul>
-    </header>
-    <main style="background-image: url(images/earth.jpg); background-repeat: no-repeat; background-size: cover;">
-      <h1 style="text-align: center;">Industry Data</h1>
-        <h2 style="text-align: center;">Ideal Job Ranks</h2>
-          <p style="text-align: center;">How does the group's ideal jobs compare to data gathered from <a href="https://www.google.com" style="color: lime;">DATA SOURCE</a>?</p>
-            <!-- Job Title and comparison to data list -->
-              <table style="color: black; margin: auto;">
-                <tr>
-                  <th>Job Title</th>
-                  <th>Demand Level</th>
-                </tr>
-                <tr>
-                  <td>Software Developer</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Software Engineer</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Web-Developer</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Game Developer</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Data Center Operations Manager</td>
-                  <td></td>
-                </tr>
-                <tr>
-                  <td>Senior Game Developer</td>
-                  <td></td>
-                </tr>
-              </table>
+
+  <body>
+<!-- Navigation Menu -->
+    <div class="row">
+      <div class="col-3" style="background-color: rgb(12,60,96); text-align: left; padding-bottom: 4px;">
+        <img src="images/logo.png" alt="team summit" style="width: 15%; height: 6%; border-radius: 15px;">
+      </div>
+      <div class="col-1"style="background-color: rgb(12,60,96); padding-top: 33px; padding-bottom: 33px;">
+        <a class="nav-options" href="index.html">Home</a>
+      </div>
+      <div class="col-1"style="background-color: rgb(12,60,96); padding-top: 33px; padding-bottom: 33px;">
+        <a class="nav-options" href="team-profile.html">Team Profile</a>
+      </div>
+      <div class="col-1"style="background-color: rgb(12,60,96); padding-top: 33px; padding-bottom: 33px;">
+        <a class="nav-options" href="ideal-jobs.html">Ideal Jobs</a>
+      </div>
+      <div class="col-1"style="background-color: rgb(12,60,96); padding-top: 33px; padding-bottom: 33px;">
+        <a class="nav-options" href="tools.html">Tools</a>
+      </div>
+      <div class="col-1"style="background-color: rgb(12,60,96); padding-top: 33px; padding-bottom: 34px;">
+        <a class="nav-options" href="industry-data.html" style="font-size: 19px;">Industry Data</a>
+      </div>
+      <div class="col-1"style="background-color: rgb(12,60,96); padding-top: 33px; padding-bottom: 33px;">
+        <a class="nav-options" href="it-work.html">IT Work</a>
+      </div>
+      <div class="col-1"style="background-color: rgb(12,60,96); padding-top: 36px; padding-bottom: 35px;">
+        <a class="nav-options" href="it-technologies.html" style="font-size: 16px;">IT Technologies</a>
+      </div>
+      <div class="col-1"style="background-color: rgb(12,60,96); padding-top: 33px; padding-bottom: 33px;">
+      <a class="nav-options" href="project-ideas.html">Project Ideas</a>
+      </div>
+      <div class="col-1"style="background-color: rgb(12,60,96); padding-top: 33px; padding-bottom: 33px;">
+        <a class="nav-options" href="reflection.html">Reflection</a>
+      </div>
+    </div>
+<!-- Main Content -->
+<div class="row">
+  <div class="col-12">
+    <h1 style="text-align: center;">Industry Data</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12">
+    <h2 style="text-align: center;">Ideal Job Ranks</h2>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12">
+    <p style="text-align: center;">How does the group's ideal jobs compare to data gathered from <a href="files/burning-glass-data.zip" download style="color: lime;">Burning Glass Data</a>?</p>
+  </div>
+</div>
+<!-- Job Title and comparison to data list -->
+<div class="row">
+  <div class="col-12" style="background-color: grey;">
+      <table style="color: black; margin: auto; background-color: white;">
+        <tr>
+          <th>Job Title</th>
+          <th>Demand Level</th>
+        </tr>
+        <tr>
+          <td style="width: 50%;">Software Developer</td>
+          <td style="background-color: #FF5959; width: 50%;">HIGH</td>
+        </tr>
+        <tr>
+          <td style="width: 50%;">Software Engineer</td>
+          <td style="background-color: #FF5959; width: 50%;">HIGH</td>
+        </tr>
+        <tr>
+          <td style="width: 50%;">Web-Developer</td>
+          <td style="background-color: #FDBC14; width: 50%;">MODERATE</td>
+        </tr>
+        <tr>
+          <td style="width: 50%;">Game Developer</td>
+          <td style="background-color: #FF5959; width: 50%;">HIGH</td>
+        </tr>
+        <tr>
+          <td style="width: 50%;">Data Center Operations Manager</td>
+          <td style="background-color: #FDBC14; width: 50%;">MODERATE</td>
+        </tr>
+        <tr>
+          <td style="width: 50%;">Senior Game Developer</td>
+          <td style="background-color: #FDBC14; width: 50%;">HIGH</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+<!-- Ideal Job Ranks -->
+<div class="row">
+  <div class="col-12">
+  <h2 style="text-align: center;">Group Required Skills</h2>
+  </div>
+</div>
+<!-- List of group required skills -->
+<div class="row">
+  <div class="col-6">
+    <h3 style="text-align: center;">IT Specific</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-6">
+    <h3 style="text-align: center;">General Skills</h3>
+  </div>
+</div>
+<!-- IT Skills Ranks -->
+<div class="row">
+  <div class="col-6">
+    <table style="margin: auto;">
+      <tr>
+        <th style="width: 25%;">Skill</th>
+        <td style="width: 25%;">Azure</td>
+        <td style="width: 25%;">C#</td>
+        <td style="width: 25%;">Microsoft Visual Studio</td>
+      </tr>
+      <tr>
+        <th style="width: 25%;">Demand Level</th>
+        <td style="background-color: #FF5959; width: 25%;">HIGH</td>
+        <td style="background-color: #FF5959; width: 25%;">HIGH</td>
+        <td style="background-color: #FDBC14; width: 25%;">MODERATE-HIGH</td>
+      </tr>
+    </table>
+  </div>
+</div>
+<!-- General Skills Ranks -->
+<div class="row">
+  <div class="col-6">
+    <table style="margin: auto;">
+      <tr>
+        <th style="width: 33%;">Skill</th>
+        <td style="width: 33%;">Experience</td>
+        <td style="width: 33%;">Leadership</td>
+      </tr>
+      <tr>
+        <th style="width: 33%;">Demand Level</th>
+        <td style="background-color: #FDBC14; width: 33%;">MODERATE</td>
+        <td style="background-color: #FF5959; width: 33%;">HIGH</td>
+      </tr>
+    </table>
+  </div>
+</div>
+<!-- Rankings of skills -->
+<div class="row">
+  <div class="col-12" style="background-color: grey;">
+    <h3>Group Skills Ranking</h3>
+    <p><em>Ranking of group skills according to <a href="files/burning-glass-data.zip" download style="color: lime;">Burning Glass Data</a></em></p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12" style="background-color: grey;">
+    <ol style="list-style-position: inside;">
+      <li>C# (top 7.6%)</li>
+      <li>Leadership (top 13.5%)</li>
+      <li>Microsoft Visual Studio (top 14%)</li>
+      <li>Azure (top 15.2%)</li>
+      <li>Experience (top 82.1%)</li>
+    </ol>
+  </div>
+</div>
+<hr class="black-seperator">
+<!-- Reflection on data -->
+<div class="row">
+  <div class="col-12">
+    <h3 style="text-align: center;">Reflection on industry data</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12" style="background-color: #E9EBEC;">
+    <hr class="black-seperator">
+    <h4>Christopher</h4>
+  </div>
+</div>
+<div class="row">
+  <div class="col-4"></div>
+  <div class="col-4">
+    <p style="text-align: center;">Christopher identified software engineer as his ideal job. In the Burning Glass Institute (2018c) data provided, this job title ranked 12th with 539 job postings. Although no mention of skills specific to the use of Azure or web framework, data was shown that ranked hypertext preprocessor/PHP skills at number 12 in the most demanded skills from employers (Burning Glass Institute, 2018a). Generally, IT experience ranked 73rd in the most demanded skills and leadership ranked 12th (Burning Glass Institute, 2018b).</p>
+    <p style="text-align: center;">After analysing the data provided, Christopher is still interested in a career as a software engineer but also now has an equal interest in a career as a front end developer. This is because the skill ranking of javascript ranked higher and from further research on Seek (nd) found there are 3835 job advertisements posted as of the access date. This indicated to Christopher that the industry has a high need for the skills required for the position of front-end developer.</p>
+  </div>
+  <div class="col-4"></div>
+</div>
+<div class="row">
+  <div class="col-12" style="background-color: #B5B5B5;">
+    <hr class="black-seperator">
+    <h4>Benjamin</h4>
+  </div>
+</div>
+<div class="row">
+  <div class="col-4" style="background-color: grey; padding: 172px;"></div>
+  <div class="col-4" style="background-color: grey;">
+    <p style="text-align: center;">Skills required to be a senior Developer rank 29 in the burning glass data. Demand is extremely high. Skills Bens currently possess rank very low in terms of being valuable and work ready for an employer. The three highest ranked skill I need to acquire to be a senior game developer are multiple languages Java/JEE, Spring, JSON, XML, REST, NoSQL Database (MongoDB, Cassandra), Distributed System, RDBMS, ePub3, MVC frameworks, Design Patterns, Javascript, JQuery, GWT, JSON.</p>
+    <p style="text-align: center;">Moreover, extensive knowledge of C# using Visual Studio using Webforms, MVC and Entity Framework. Furthermore, Experience as an applications programmer on large-scale data base management systems and this is just the tip of the iceberg. None of the top-ranking skill required are currently in Bens's skill set. After exploring the burning glass data ben's opinion remains the same, He is still really driven to become a senior game developer this is because even if I come up short, He will gain many important skills along the way.</p>
+  </div>
+  <div class="col-4" style="background-color: grey; padding: 172px;"></div>
+</div>
+<div class="row">
+  <div class="col-12" style="background-color: #E9EBEC;">
+    <hr class="black-seperator">
+    <h4>Andy</h4>
+  </div>
+</div>
+<div class="row">
+  <div class="col-4"></div>
+  <div class="col-4">
+    <p style="text-align: center;">Andy identified Data Warehouse Manager as his ideal job. Within the Burning Glass data, this job title does not appear, however ‘Data Warehouse Developer’ does. This job is not highly ranked at #192, however could be an entry level into a data warehouse environment.</p>
+    <p style="text-align: center;">Andy’s in-demand skills do not have Azure specifically referenced however skills such as ASP (30) is framework to work with Azure. Linux is listed as 10th in demand skill. The top IT skills which are not in the require skill set are SQL 1st, Javascript 2nd and Java 4th. Writing, communication and problem-solving skills are not specifically referenced in Andy’s required skill sets for this role, however would be highly advantageous.</p>
+    <p style="text-align: center;">Review of the Burning Glass data made Andy realise this is not a highly sought-after role. This doesn’t change the appeal of the ideal job however it does focus his attention on other career opportunities through IT management.</p>
+  </div>
+  <div class="col-4"></div>
+</div>
+<div class="row">
+  <div class="col-12" style="background-color: #B5B5B5;">
+    <hr class="black-seperator">
+    <h4>Jennifer</h4>
+  </div>
+</div>
+<div class="row">
+  <div class="col-4" style="background-color: grey; padding: 107px;"></div>
+  <div class="col-4" style="background-color: grey;">
+    <p style="text-align: center;">Jennifer identified a Software Developer role for her ideal job.  Jennifer’s review of industry data provided her with an understanding that this is not the role for her as she has recently determined that she does not enjoy programming. Of the top IT Job titles reported within the Burning Glass dataset (Burning Glass Institute, 2018b), Software Developers ranked 19th out of the 200 roles assessed.  C# was the highest ranked skill required for the Software Developer role, ranking 6th out of the 200 skills assessed.  Git ranked 11th and Microsoft Visual Studio skills ranked 43rd. General skills were not referred to in the job advertisement.</p>
+  </div>
+  <div class="col-4" style="background-color: grey; padding: 107px;"></div>
+</div>
+<div class="row">
+  <div class="col-12" style="background-color: #E9EBEC;">
+    <hr class="black-seperator">
+    <h4>Jineshkumar</h4>
+  </div>
+</div>
+<div class="row">
+  <div class="col-4"></div>
+  <div class="col-4">
+    <p style="text-align: center;">Jinesh identified Web Developer as his ideal job. In burning glass data, it does not rank however Web Analyst does rank at #144. This could be a way into a Web Developer Job. The required skills for Web Development are HTML ranked 14 in Skills in Demand, JavaScrip skills (3rd in Demand), SQL Skills (1st in Demand). There are other skills required which are not listed in the Skills Demand database which are Analytic Skills, Responsive Design, Interpersonal Skills, Testing and debugging, Back-end basics, and Search Engine Optimization.</p>
+    <p style="text-align: center;">After reviewing the Dataset, the ideal job did change for Jinesh, however it did show that some low demand skills are required also to be able to obtain the job. Since web developing is not ranked high in the demand job the Web Analyst is now his ideal job.</p>
+  </div>
+  <div class="col-4"></div>
+</div>
+<div class="row">
+  <div class="col-12" style="background-color: #B5B5B5;">
+    <hr class="black-seperator">
+    <h4>Shalimay</h4>
+  </div>
+</div>
+<div class="row">
+  <div class="col-4" style="background-color: grey; padding: 153px;"></div>
+  <div class="col-4" style="background-color: grey;">
+    <p style="text-align: center;">Shalimay identified her ideal job to be a Game Developer. This specific title does not appear in the ranked system of the Burning glass data however ‘Developer’ does appear at number 23 on the ranked list of job demand titles. Many skills involved with game development such as programming in C languages and using git can be translated easily into these in-demand jobs such as JAVA, a C language, ranks highly in demand for JAVA developer, Solutions Architect and Java Developer. All appearing in the top 10 of the top titles.</p>
+    <p style="text-align: center;">Of the ranks in the Top IT Skills data, Microsoft C# ranks at #7, Git ranks at #12, and Visual Basic at #44.  Having assessed the data, Shalimay’s opinions have not changed as the goals for Game Developer as an occupation as this drive was more interest and hobby-driven rather than job stability in the industry of IT. It’s just happenstance that the cross-over skills are in high demand.</p>
+  </div>
+  <div class="col-4" style="background-color: grey; padding: 153px;"></div>
+</div>
+
+    <!-- Footer content -->
+          <div class="row">
+            <div class="col-12" style="background-color: yellow;">
+              <hr class="black-seperator">
             </div>
-          <!-- Ideal Job Ranks -->
-        <h2 style="text-align: center;">Group Required Skills</h2>
-          <!-- List of group required skills -->
-            <!-- IT specific skills ranks -->
-          <h3 style="text-align: center;">IT Specific</h3>
-            <table style="margin: auto;">
-              <tr>
-                <th>Skill</th>
-                <td>Azure</td>
-                <td>PLACEHOLDER</td>
-                <td>PLACEHOLDER</td>
-                <td>PLACEHOLDER</td>
-                <td>PLACEHOLDER</td>
-                <td>PLACEHOLDER</td>
-                <td>PLACEHOLDER</td>
-                <td>PLACEHOLDER</td>
-                <td>PLACEHOLDER</td>
-                <td>PLACEHOLDER</td>
-                <td>PLACEHOLDER</td>
-                <td>PLACEHOLDER</td>
-              </tr>
-              <tr>
-                <th>Demand Level</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-            </table>
-            <!-- General skills ranks -->
-          <h3 style="text-align: center;">General Skills</h3>
-            <table style="margin: auto;">
-              <tr>
-                <th>Skill</th>
-                <td>Experience</td>
-                <td>PLACEHOLDER</td>
-                <td>PLACEHOLDER</td>
-                <td>PLACEHOLDER</td>
-                <td>PLACEHOLDER</td>
-                <td>PLACEHOLDER</td>
-                <td>PLACEHOLDER</td>
-                <td>PLACEHOLDER</td>
-                <td>PLACEHOLDER</td>
-                <td>PLACEHOLDER</td>
-                <td>PLACEHOLDER</td>
-                <td>PLACEHOLDER</td>
-              </tr>
-              <tr>
-                <th>Demand Level</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-            </table>
-              <!-- Three highest ranked IT specific skills -->
-              <!-- Three highest ranked general skills -->
-        <hr class="black-seperator">
-        <h3 style="text-align: center;">Reflection on industry data</h3>
-          <h4>Christopher</h4>
-            <p style="text-align: center;">Christopher identified software engineer as his ideal job. In the Burning Glass Institute (2018c) data provided, this job title ranked 12th with 539 job postings. Although no mention of skills specific to the use of Azure or web framework, data was shown that ranked hypertext preprocessor/PHP skills at number 12 in the most demanded skills from employers (Burning Glass Institute, 2018a). Generally, IT experience ranked 73rd in the most demanded skills and leadership ranked 12th (Burning Glass Institute, 2018b).  </p>
-            <p style="text-align: center;">After analyzing the data provided, Christopher is still interested in a career as a software engineer but also now has an equal interest in a career as a front end developer. This is because the skill ranking of javascript ranked higher and from further research on Seek (nd) found there are 3835 job advertisements posted as of the access date. This indicated to Christopher that the industry has a high need for the skills required for the position of front-end developer. </p>
-          <h4>Benjamin</h4>
-            <p style="text-align: center;">Skills required to be a senior Developer rank 29 in the burning glass data. Demand is extremely high. Skills Bens currently possess rank very low in terms of being valuable and work ready for an employer. The three highest ranked skill I need to acquire to be a senior game developer are multiple languages Java/JEE, Spring, JSON, XML, REST, NoSQL Database (MongoDB, Cassandra), Distributed System, RDBMS, ePub3, MVC frameworks, Design Patterns, Javascript, JQuery, GWT, JSON. Moreover, extensive knowledge of C# using Visual Studio using Webforms, MVC and Entity Framework. Furthermore, Experience as an applications programmer on large-scale data base management systems and this is just the tip of the iceberg. None of the top-ranking skill required are currently in Bens's skill set. After exploring the burning glass data ben's opinion remains the same, He is still really driven to become a senior game developer this is because even if I come up short, He will gain many important skills along the way.</p>
-          <h4>Andy</h4>
-            <p style="text-align: center;">Andy identified Data Warehouse Manager as his ideal job. Within the Burning Glass data, this job title does not appear, however ‘Data Warehouse Developer’ does. This job is not highly ranked at #192, however could be an entry level into a data warehouse environment.  </p>
-            <p style="text-align: center;">Andy’s in-demand skills do not have Azure specifically referenced however skills such as ASP (30) is framework to work with Azure. Linux is listed as 10th in demand skill. The top IT skills which are not in the require skill set are SQL 1st, Javascript 2nd and Java 4th. Writing, communication and problem-solving skills are not specifically referenced in Andy’s required skill sets for this role, however would be highly advantageous.  </p>
-            <p style="text-align: center;">Review of the Burning Glass data made Andy realise this is not a highly sought-after role. This doesn’t change the appeal of the ideal job however it does focus hisattention on other career opportunities through IT management. </p>
-          <h4>Jennifer</h4>
-            <p style="text-align: center;">Jennifer identified a Software Developer role for her ideal job.  Jennifer’s review of industry data provided her with an understanding that this is not the role for her as she has recently determined that she does not enjoy programming. Of the top IT Job titles reported within the Burning Glass dataset (Burning Glass Institute, 2018b), Software Developers ranked 19th out of the 200 roles assessed.  C# was the highest ranked skill required for the Software Developer role, ranking 6th out of the 200 skills assessed.  Git ranked 11th and Microsoft Visual Studio skills ranked 43rd. General skills were not referred to in the job advertisement.</p>
-          <h4>Jineshkumar</h4>
-            <p style="text-align: center;">Jinesh identified Web Developer as his ideal job. In burning glass data, it does not rank however Web Analyst does rank at #144. This could be a way into a Web Developer Job. The required skills for Web Development are HTML ranked 14 in Skills in Demand, JavaScrip skills (3rd in Demand), SQL Skills (1st in Demand). There are other skills required which are not listed in the Skills Demand database which are Analytic Skills, Responsive Design, Interpersonal Skills, Testing and debugging, Back-end basics, and Search Engine Optimization.</p>
-            <p style="text-align: center;">After reviewing the Dataset, the ideal job did change for Jinesh, however it did show that some low demand skills are required also to be able to obtain the job. Since web developing is not ranked high in the demand job the Web Analyst is now his ideal job.</p>
-          <h4>Shalimay</h4>
-            <p style="text-align: center;">Shalimay identified her ideal job to be a Game Developer. This specific title does not appear in the ranked system of the Burning glass data however ‘Developer’ does appear at number 23 on the ranked list of job demand titles. Many skills involved with game development such as programming in C languages and using git can be translated easily into these in-demand jobs such as JAVA, a C language, ranks highly in demand for JAVA developer, Solutions Architect and Java Developer. All appearing in the top 10 of the top titles. </p>
-            <p style="text-align: center;">Of the ranks in the Top IT Skills data, Microsoft C# ranks at #7, Git ranks at #12, and Visual Basic at #44.  Having assessed the data, Shalimay’s opinions have not changed as the goals for Game Developer as an occupation as this drive was more interest and hobby-driven rather than job stability in the industry of IT. It’s just happenstance that the cross-over skills are in high demand. </p>
-    </main>
-    <footer>
-      <!-- Footer content -->
-      <hr class="black-seperator">
-      <p>Created using original code and creative design by team Summit</p>
-      <hr class="black-seperator">
-    </footer>
-  </body>
-  </html>
+            <div class="col-12" style="background-color: yellow;">
+              <p>Created using original code and creative design by team Summit</p>
+            </div>
+            <div class="col-12" style="background-color: yellow;">
+              <hr class="black-seperator">
+            </div>
+          </div>
+      </body>
+    </html>
