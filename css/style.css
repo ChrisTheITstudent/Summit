@@ -155,3 +155,26 @@ hr.black-seperator {
     margin: 50px 50px;
     text-align: center;
   }
+  .header {
+  margin-top: 25px;
+  background-color: black;
+}
+.navigation-menu {
+  list-style-type: none;
+  text-align: center;
+  margin: 0px;
+  padding: 5px;
+
+}
+.nav-options {
+  display: inline;
+  color: white;
+  font-size: 24px;
+  margin: 0;
+  padding: 10px;
+  border: 2px;
+  border-color: white;
+}
+.nav-options:hover {
+  background-color: grey;
+}
