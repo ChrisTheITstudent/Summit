@@ -141,3 +141,17 @@ hr.black-seperator {
 .yes {
   background-color: #8DC66E;
 }
+.coloms {
+  display: flex;
+  justify-content: center;
+}
+.colom {
+  margin: 5px;
+  padding: 15px;
+  .team-profile {
+    width: 100px;
+    height: 250px;
+    padding: 5px;
+    margin: 50px 50px;
+    text-align: center;
+  }
